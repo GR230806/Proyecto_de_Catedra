@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*Header*/
+header {
+  background-color: #81BFF6;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+}
+/* Contenedores*/
+.contenedor {
+  display: flex;
+  margin: 10px; 
+}
+.contenedor-lateral {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: #A4A4A4;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 10px; 
+}
+.contenedor-central {
+  flex: 2; 
+  background-color: #81BFF6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 10px; 
+}
+/*Footer*/
+footer {
+  background-color: #81BFF6;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+.iconos {
+  margin-bottom: 10px;
+}
+.icono {
+  color: white;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+/*Barra de navegación*/
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  background-color: #0175DE;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+nav a:hover {
+  background-color: #0505B4;
+}
+
+.boton-con-icono {
+  background-color: #0175DE;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 300px; 
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 15px;
+}
+.boton-con-icono:hover{
+  background-color: #0505B4;
+}
+
+.icono {
+  margin-right: 10px;
+}
+
+.boton{
+  background-color: #0175DE;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 200px; 
+  text-align: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.boton:hover{
+  background-color: #0505B4;
+}
+
+.area-de-texto {
+  width: 90%;
+  height: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
