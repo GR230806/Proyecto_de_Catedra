@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio- Write Note</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="JS/inicio.js">
+    <link href="IMG/icono.png" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="notas.html">Crear nueva nota</a>
+            <a href="recordatorio.html">Agregar recordatorio</a>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <div class="contenedor-lateral">
+            <h1>Menú de opciones</h1>
+            <a href="lista.html" class="boton-con-icono">
+                <i class="fas fa-tasks icono"></i> Lista de Tareas
+            </a><br>
+            <a href="compras.html" class="boton-con-icono">
+                <i class="fas fa-shopping-cart icono"></i> Lista de Compras
+            </a><br>
+            <a href="clases.html" class="boton-con-icono">
+                <i class="fas fa-chalkboard icono"></i> Notas de Clases
+            </a><br>
+            <a href="notas.html" class="boton-con-icono">
+                <i class="fas fa-chalkboard icono"></i> Notas Importantes
+            </a><br>
+            <a href="recordatorio.html" class="boton-con-icono">
+                <i class="fas fa-bell icono"></i> Agregar Recordatorio
+            </a>            
+        </div>
+        <div class="contenedor-central">
+            <center><h1>Apartado de notas</h1></center>
+        <div>
+            <textarea id="nota" class="area-de-texto" placeholder="Nota de texto sin formato..."></textarea>
+        </div>
+        <nav>
+            <button id="guardarBtn" class="boton">
+                <i class="fas fa-save icono"></i> Guardar
+            </button><br><br>
+            <button id="editarBtn" class="boton">
+                <i class="fas fa-edit icono"></i> Editar
+            </button><br><br>
+            <button id="eliminarBtn" class="boton">
+                <i class="fas fa-trash-alt icono"></i> Eliminar
+            </button><br><br>
+        </nav>
+        </div>
+        <div class="contenedor-lateral">
+            <h1>Notas</h1>
+            <nav>
+                <a href="notas.html">Ver mis notas</a>
+            </nav>
+        </div>
+    </div>
+
+    <footer>
+        <div class="iconos"><br>
+            <a href="#" class="icono"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="icono"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icono"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icono"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>© COPYRIGHT WRITE NOTE. TODOS LOS DERECHOS RESERVADOS</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Notas de Clases - Write Note</title>
+    <link rel="stylesheet" href="CSS/notas.css">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link href="IMG/icono.png" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+          <a href="recordatorio.html">Agregar un recordatorio</a>
+          <a href="inicio.html">Volver al inicio</a>
+      </nav>
+  </header>
+  <div class="contenedor">
+    <div class="contenedor-lateral">
+      <h1>Menú de opciones</h1>
+      <br><br>
+      <a href="lista.html" class="boton-con-icono">
+          <i class="fas fa-tasks icono"></i> Lista de Tareas
+      </a><br>
+      <a href="compras.html" class="boton-con-icono">
+          <i class="fas fa-shopping-cart icono"></i> Lista de Compras
+      </a><br>
+      <a href="clases.html" class="boton-con-icono">
+          <i class="fas fa-chalkboard icono"></i> Notas de Clases
+      </a><br>
+      <a href="notas.html" class="boton-con-icono">
+          <i class="fas fa-chalkboard icono"></i> Notas Importantes
+      </a><br>
+      <a href="recordatorio.html" class="boton-con-icono">
+          <i class="fas fa-bell icono"></i> Agregar Recordatorio
+      </a>            
+  </div>
+      <div class="contenedor-central">
+    <div class="popup-box">
+      <div class="popup">
+        <div class="content">
+          <header>
+            <p></p>
+            <i class="uil uil-times"></i>
+          </header>
+          <form action="#">
+            <div class="row title">
+              <label>Titulo</label>
+              <input type="text" spellcheck="false">
+            </div>
+            <div class="row description">
+              <label>Descripción</label>
+              <textarea spellcheck="false"></textarea>
+            </div>
+            <button></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <li class="add-box">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <p>Crera una nueva nota</p>
+      </li>
+    </div>   
+  </div>
+</div>
+
+    <script src="JS/notas.js"></script>
+    
+    <footer>
+      <div class="iconos"><br>
+          <a href="#" class="icono"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="icono"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="icono"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="icono"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p>© COPYRIGHT WRITE NOTE. TODOS LOS DERECHOS RESERVADOS</p>
+  </footer>
+  </body>
+</html>
