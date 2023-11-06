@@ -90,7 +90,6 @@
 ### Hazel Alejandra Ramos Vásquez.
 ### Nelson Otoniel Maldonado Manzanarez.
 ### José Roberto Beltrán Márquez.
-### Jennifer Grabiela Chávez Surino.
 
 ## Links de descarga:
 ### Para descargar Git https://git-scm.com/downloads
